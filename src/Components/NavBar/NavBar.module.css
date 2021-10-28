@@ -1,0 +1,43 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 80px;
+    padding-left: 50px;
+    font-size:20px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.scrolling{
+    background-color:rgba(0, 0, 0, 0.521);
+    transition: all 0.5s ease;
+}
+
+.navBarLogo {
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    cursor: pointer;
+    font-size: 150%;
+}
+.navBarLogo:hover{
+    
+    transition: 0.100s;
+    margin-top: -0.5em;
+}
+
+
+.myProjects {
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    cursor: pointer;
+    /* margin-left: 8%;
+    margin-top: -5%; */
+}
+
