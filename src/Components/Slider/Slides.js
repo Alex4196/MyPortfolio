@@ -8,6 +8,12 @@ const slidesInfo = [
         desc: "16BitGameStore",
         link: "https://16-bit-gamestore.vercel.app/" 
     },
+ /*    {
+        src: "https://images.unsplash.com/photo-1532943126512-e2bcf68a488c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        alt: "clima",
+        desc: "Weather App",
+        link: "https://weather-ten-mu.vercel.app/"
+    }, */
     {
         src: "https://images.unsplash.com/photo-1556909211-36987daf7b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         alt: "TheUltimateFoodApp",
@@ -20,11 +26,18 @@ const slidesInfo = [
         desc: "Weather App",
         link: "https://weather-ten-mu.vercel.app/"
     },
-   /*   {
-        src: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=725&q=80",
-        alt: "movieTheater",
-        desc: "Movie Theater"
-    },  */ 
+     {
+        src: "https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        alt: "greenpine",
+        desc: "The green Pine",
+        link: "https://greenpine.vercel.app/"
+    },  
+    {
+        src: "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        alt: "greenpine",
+        desc: "Marvel",
+        link: "https://marvel-nine-omega.vercel.app/"
+    }, 
 ]
 
 const Slides = slidesInfo.map(slide => (

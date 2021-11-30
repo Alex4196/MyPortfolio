@@ -14,9 +14,7 @@ const Footer = () => {
                <h3> Contact me </h3>
             </div> */}
               <div  className="footer-Sns" >
-                 <div className="design-By" >
-                 If you want to be in contact with me, these are my social networks!
-                 </div> 
+               
                   <h1></h1>
                    <div className="sns-Links" >
                      
